@@ -85,8 +85,8 @@ while True:
 
     # -------- THINGSPEAK UPLOAD --------
     try:
-        base_url = "https://api.thingspeak.com/update"
-        api_key = "AI1N623K6VQY2GWT"
+        base_url = "thinkspeak url "
+        api_key = "public api key needed"
 
         url = base_url + "?api_key=" + api_key
         url += "&field1=" + str(temperature)
