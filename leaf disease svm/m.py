@@ -7,8 +7,8 @@ from picamera2 import Picamera2
 import RPi.GPIO as GPIO
 
 # ================= TELEGRAM CONFIG =================
-BOT_TOKEN = "8235870280:AAFNYHc90pAjZiO_bDkwwGubBePS46Y_Qho"
-CHAT_ID = "1762714591"
+BOT_TOKEN = "creae a bot in telegram to get notifications"
+CHAT_ID = "chat id telegram needed to be here"
 
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
